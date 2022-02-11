@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>untagged on @rory_sec</title>
-    <link>localhost/tags/untagged/</link>
+    <link>https://rory-sec.github.io/tags/untagged/</link>
     <description>Recent content in untagged on @rory_sec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 28 Jan 2022 22:15:30 +1030</lastBuildDate><atom:link href="localhost/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jan 2022 22:15:30 +1030</lastBuildDate><atom:link href="https://rory-sec.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>localhost/posts/test/</link>
+      <link>https://rory-sec.github.io/posts/test/</link>
       <pubDate>Fri, 28 Jan 2022 22:15:30 +1030</pubDate>
       
-      <guid>localhost/posts/test/</guid>
+      <guid>https://rory-sec.github.io/posts/test/</guid>
       <description>// your code here </description>
     </item>
     

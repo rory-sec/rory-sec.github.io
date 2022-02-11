@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost/</loc>
+    <loc>https://rory-sec.github.io/</loc>
     <lastmod>2022-01-28T22:15:30+10:30</lastmod>
   </url><url>
-    <loc>localhost/posts/</loc>
+    <loc>https://rory-sec.github.io/posts/</loc>
     <lastmod>2022-01-28T22:15:30+10:30</lastmod>
   </url><url>
-    <loc>localhost/tags/</loc>
+    <loc>https://rory-sec.github.io/tags/</loc>
     <lastmod>2022-01-28T22:15:30+10:30</lastmod>
   </url><url>
-    <loc>localhost/posts/test/</loc>
+    <loc>https://rory-sec.github.io/posts/test/</loc>
     <lastmod>2022-01-28T22:15:30+10:30</lastmod>
   </url><url>
-    <loc>localhost/tags/untagged/</loc>
+    <loc>https://rory-sec.github.io/tags/untagged/</loc>
     <lastmod>2022-01-28T22:15:30+10:30</lastmod>
   </url><url>
-    <loc>localhost/blog/</loc>
+    <loc>https://rory-sec.github.io/blog/</loc>
   </url><url>
-    <loc>localhost/series/</loc>
+    <loc>https://rory-sec.github.io/series/</loc>
   </url>
 </urlset>
