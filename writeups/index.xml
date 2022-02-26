@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>@rory_sec</title>
-    <link>https://rory-sec.github.io/</link>
-    <description>Recent content on @rory_sec</description>
+    <title>Writeups on @rory_sec</title>
+    <link>https://rory-sec.github.io/writeups/</link>
+    <description>Recent content in Writeups on @rory_sec</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 25 Feb 2022 22:15:30 +1030</lastBuildDate><atom:link href="https://rory-sec.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Feb 2022 22:15:30 +1030</lastBuildDate><atom:link href="https://rory-sec.github.io/writeups/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Attacking Kerberos TryHackMe Write-up</title>
       <link>https://rory-sec.github.io/writeups/test/</link>
@@ -22,15 +22,6 @@
   Skeleton Key
   Kerberos is the default authentication service for Microsoft Windows domains. Kerberos has several underlying vulnerabilities that an adversary can leverage to compromise accounts and services within Active Directory.
 Kerberos: Breakdown AS-REQ - Initial Request for Ticket Granting Ticket AS-REQ is the Initial Kerberos request for a Ticket Granting Ticket.</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://rory-sec.github.io/blog/test/</link>
-      <pubDate>Fri, 28 Jan 2022 22:15:30 +1030</pubDate>
-      
-      <guid>https://rory-sec.github.io/blog/test/</guid>
-      <description>// your code here </description>
     </item>
     
   </channel>

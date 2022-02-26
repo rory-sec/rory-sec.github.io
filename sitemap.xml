@@ -3,15 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://rory-sec.github.io/</loc>
-    <lastmod>2022-01-28T22:15:30+10:30</lastmod>
+    <lastmod>2022-02-25T22:15:30+10:30</lastmod>
   </url><url>
-    <loc>https://rory-sec.github.io/posts/</loc>
-    <lastmod>2022-01-28T22:15:30+10:30</lastmod>
+    <loc>https://rory-sec.github.io/tags/active-directory/</loc>
+    <lastmod>2022-02-25T22:15:30+10:30</lastmod>
+  </url><url>
+    <loc>https://rory-sec.github.io/writeups/test/</loc>
+    <lastmod>2022-02-25T22:15:30+10:30</lastmod>
+  </url><url>
+    <loc>https://rory-sec.github.io/tags/kerberos/</loc>
+    <lastmod>2022-02-25T22:15:30+10:30</lastmod>
   </url><url>
     <loc>https://rory-sec.github.io/tags/</loc>
+    <lastmod>2022-02-25T22:15:30+10:30</lastmod>
+  </url><url>
+    <loc>https://rory-sec.github.io/tags/thm/</loc>
+    <lastmod>2022-02-25T22:15:30+10:30</lastmod>
+  </url><url>
+    <loc>https://rory-sec.github.io/writeups/</loc>
+    <lastmod>2022-02-25T22:15:30+10:30</lastmod>
+  </url><url>
+    <loc>https://rory-sec.github.io/blog/</loc>
     <lastmod>2022-01-28T22:15:30+10:30</lastmod>
   </url><url>
-    <loc>https://rory-sec.github.io/posts/test/</loc>
+    <loc>https://rory-sec.github.io/blog/test/</loc>
     <lastmod>2022-01-28T22:15:30+10:30</lastmod>
   </url><url>
     <loc>https://rory-sec.github.io/tags/untagged/</loc>
