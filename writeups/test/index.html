@@ -57,7 +57,7 @@ Kerberos: Breakdown AS-REQ - Initial Request for Ticket Granting Ticket AS-REQ i
   Kerberos is the default authentication service for Microsoft Windows domains. Kerberos has several underlying vulnerabilities that an adversary can leverage to compromise accounts and services within Active Directory.
 Kerberos: Breakdown AS-REQ - Initial Request for Ticket Granting Ticket AS-REQ is the Initial Kerberos request for a Ticket Granting Ticket."><meta itemprop="datePublished" content="2022-02-25T22:15:30+10:30" />
 <meta itemprop="dateModified" content="2022-02-25T22:15:30+10:30" />
-<meta itemprop="wordCount" content="1851"><meta itemprop="image" content="https://rory-sec.github.io/"/>
+<meta itemprop="wordCount" content="1875"><meta itemprop="image" content="https://rory-sec.github.io/"/>
 <meta itemprop="keywords" content="THM,Kerberos,Active Directory," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://rory-sec.github.io/"/>
@@ -188,7 +188,7 @@ Kerberos: Breakdown AS-REQ - Initial Request for Ticket Granting Ticket AS-REQ i
 <h1 id="kerberos-breakdown">Kerberos: Breakdown</h1>
 <h2 id="as-req---initial-request-for-ticket-granting-ticket">AS-REQ - Initial Request for Ticket Granting Ticket</h2>
 <p><strong>AS-REQ</strong> is the Initial Kerberos request for a <strong>Ticket Granting Ticket</strong>. (This ticket is used to get a Ticket Granting Service ticket which can then be used for access to resources such as a Database or File Server). The Ticket Granting Ticket can be thought of as a &lsquo;General Admission&rsquo; ticket, to get access to specific resources you must use this &lsquo;General Admission&rsquo; ticket to get other tickets specifically for different services the user wishes to access (e.g. Database or File Server), these other tickets are the <strong>Ticket Granting Service Tickets</strong>.</p>
-<p>Basically, you use a General Admission ticket to get further tickets for specific rides (e.g. Roller Coaster Ticket, Ferris Wheel Ticket).</p>
+<p>Basically, you use a General Admission ticket to get further tickets for specific services, if we carry on with our previous analogy; you can use a General Admission ticket to get tickets to rides (e.g. Roller Coaster Ticket, Ferris Wheel Ticket).</p>
 <ol>
 <li>
 <p>User requests a <strong>Ticket Granting Ticket</strong> from the <strong>Authentication Service</strong> on the <strong>Key Distribution Centre</strong> (<strong>AS-REQ</strong> request).</p>
@@ -317,7 +317,7 @@ Kerberos: Breakdown AS-REQ - Initial Request for Ticket Granting Ticket AS-REQ i
 <p>What is the SQLService Password?</p>
 <p><code>MYPassword123#</code></p>
 </blockquote>
-<h2 id="as-rep-roasting-wtih-rubeus">AS-REP Roasting wtih Rubeus</h2>
+<h2 id="as-rep-roasting-with-rubeus">AS-REP Roasting with Rubeus</h2>
 <p>As mentioned previously, accounts that have Kerberos pre-authentication disabled (<code>DONT_REQ_PREAUTH = TRUE</code>) are vulnerable to AS-REP roasting.</p>
 <p>Because pre-authentication is disabled, we can request a Ticket Granting Ticket for any user. Given Ticket Granting Tickets are composed of the users password hash we can then attempt to crack the hash offline or use it in another attack (Pass-The-Ticket).</p>
 <p>If <code>DONT_REQ_PREAUTH</code> is set to <code>FALSE</code> we would not be able to perform this attack because we would need to authenticate to the <strong>Key Distribution Centre</strong> in order to receive the <strong>Ticket Granting Ticket</strong> for the account we are requesting.</p>
@@ -439,7 +439,7 @@ Kerberos: Breakdown AS-REQ - Initial Request for Ticket Granting Ticket AS-REQ i
 <p><img src="/AttackingKerberos/SkeletonKey.png" alt="SkeletonKey"></p>
 <script src="https://tryhackme.com/badge/533379"></script>
 
-<p>Further resources detailing how Kerberos works can be found below:</p>
+<p>Further resources on attacking Keberos and detailing how Kerberos works can be found below:</p>
 <ul>
 <li>
 <p><a href="https://medium.com/@t0pazg3m/pass-the-ticket-ptt-attack-in-mimikatz-and-a-gotcha-96a5805e257a">https://medium.com/@t0pazg3m/pass-the-ticket-ptt-attack-in-mimikatz-and-a-gotcha-96a5805e257a</a></p>
